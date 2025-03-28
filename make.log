@@ -1,0 +1,98 @@
+cd src ; make all
+make[1]: Entering directory '/home/gparusa/Documents/oncvpsp-3.3.1/src'
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c oncvpsp.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c fphsft.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c fpovlp.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c gnu_script.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c linout.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c psatom.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c relatom.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_config.f90
+run_config.f90:142:24:
+
+  142 |  write(6,'(a,1p,d10.2)'), '      PSP excitation error=', &
+      |                        1
+Warning: Legacy Extension: Comma before i/o item list at (1)
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_diag.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_phsft.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_plot.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_vkb.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c sratom.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c upfout.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c wellstate.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c aeo.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c check_data.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c const_basis.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c dpnint.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c eresid.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c exchdl.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c exc_off_pbe.f
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c excpzca.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c excwig.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c ldiracfb.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c ldiracfs.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschfb.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschfs.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschkb.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschpb.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschpse.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschps.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschvkbbe.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschvkbb.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschvkbs.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c modcore.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c optimize.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c pspot.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c qroots.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_optimize.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c sbf8.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c sbf_basis.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c sbf_rc_der.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c tfapot.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c vkboutwf.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c vkbphsft.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c vout.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c vpinteg.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c vploc.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c wf_rc_der.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c modcore2.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c gg1cc.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c gp1cc.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c gpp1cc.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c der2exc.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c modcore3.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c old_optimize.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_ghosts.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c lschpsbar.f90
+cpp -ansi -DLIBXC_VERSION=203   functionals.F90  > functionals_cpp.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -o functionals.o -c functionals_cpp.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c exc_libxc.f90
+gfortran -o oncvpsp.x oncvpsp.o fphsft.o fpovlp.o gnu_script.o linout.o psatom.o relatom.o run_config.o run_diag.o run_phsft.o run_plot.o run_vkb.o sratom.o upfout.o wellstate.o aeo.o check_data.o const_basis.o dpnint.o eresid.o exchdl.o exc_off_pbe.o excpzca.o excwig.o ldiracfb.o ldiracfs.o lschfb.o lschfs.o lschkb.o lschpb.o lschpse.o lschps.o lschvkbbe.o lschvkbb.o lschvkbs.o modcore.o optimize.o pspot.o qroots.o run_optimize.o sbf8.o sbf_basis.o sbf_rc_der.o tfapot.o vkboutwf.o vkbphsft.o vout.o vpinteg.o vploc.o wf_rc_der.o modcore2.o gg1cc.o gp1cc.o gpp1cc.o der2exc.o modcore3.o old_optimize.o run_ghosts.o lschpsbar.o functionals.o exc_libxc.o  -L/usr/lib/x86_64-linux-gnu/lapack -llapack -L/usr/lib/x86_64-linux-gnu/blas -lblas -L/home/gparusa/Documents/libxc/lib -lxcf90 -lxc
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c oncvpsp_nr.f90
+gfortran -o oncvpspnr.x oncvpsp_nr.o fphsft.o fpovlp.o gnu_script.o linout.o psatom.o relatom.o run_config.o run_diag.o run_phsft.o run_plot.o run_vkb.o sratom.o upfout.o wellstate.o aeo.o check_data.o const_basis.o dpnint.o eresid.o exchdl.o exc_off_pbe.o excpzca.o excwig.o ldiracfb.o ldiracfs.o lschfb.o lschfs.o lschkb.o lschpb.o lschpse.o lschps.o lschvkbbe.o lschvkbb.o lschvkbs.o modcore.o optimize.o pspot.o qroots.o run_optimize.o sbf8.o sbf_basis.o sbf_rc_der.o tfapot.o vkboutwf.o vkbphsft.o vout.o vpinteg.o vploc.o wf_rc_der.o modcore2.o gg1cc.o gp1cc.o gpp1cc.o der2exc.o modcore3.o old_optimize.o run_ghosts.o lschpsbar.o functionals.o exc_libxc.o  -L/usr/lib/x86_64-linux-gnu/lapack -llapack -L/usr/lib/x86_64-linux-gnu/blas -lblas -L/home/gparusa/Documents/libxc/lib -lxcf90 -lxc
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c oncvpsp_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c fphsft_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c fpovlp_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c gnu_script_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c linout_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c psatom_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c renorm_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_config_r.f90
+run_config_r.f90:178:24:
+
+  178 |  write(6,'(a,1p,d10.2)'), '      PSP excitation error=', &
+      |                        1
+Warning: Legacy Extension: Comma before i/o item list at (1)
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_diag_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_diag_sr_so_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_phsft_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_plot_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c run_vkb_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c sr_so_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c upfout_r.f90
+gfortran -O3 -ffast-math -funroll-loops -I/home/gparusa/Documents/libxc/include  -c wellstate_r.f90
+gfortran -o oncvpspr.x oncvpsp_r.o fphsft_r.o fpovlp_r.o gnu_script_r.o linout_r.o psatom_r.o relatom.o renorm_r.o run_config_r.o run_diag_r.o run_diag_sr_so_r.o run_phsft_r.o run_plot_r.o run_vkb_r.o sr_so_r.o upfout_r.o wellstate_r.o aeo.o check_data.o const_basis.o dpnint.o eresid.o exchdl.o exc_off_pbe.o excpzca.o excwig.o ldiracfb.o ldiracfs.o lschfb.o lschfs.o lschkb.o lschpb.o lschpse.o lschps.o lschvkbbe.o lschvkbb.o lschvkbs.o modcore.o optimize.o pspot.o qroots.o run_optimize.o sbf8.o sbf_basis.o sbf_rc_der.o tfapot.o vkboutwf.o vkbphsft.o vout.o vpinteg.o vploc.o wf_rc_der.o modcore2.o gg1cc.o gp1cc.o gpp1cc.o der2exc.o modcore3.o old_optimize.o run_ghosts.o lschpsbar.o functionals.o exc_libxc.o  -L/usr/lib/x86_64-linux-gnu/lapack -llapack -L/usr/lib/x86_64-linux-gnu/blas -lblas -L/home/gparusa/Documents/libxc/lib -lxcf90 -lxc
+make[1]: Leaving directory '/home/gparusa/Documents/oncvpsp-3.3.1/src'
+./set_path
+cd tests/data ; ./TEST.sh
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
